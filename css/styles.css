@@ -230,11 +230,12 @@ a#cursive.navbar-brand.js-scroll-trigger{
 #pricing {
   padding: 100px;
   text-align: center;
+  
 
 }
 
-.pricing-col {
-  padding: 3% 2%;
+.pricing-column {
+  padding-bottom: 2rem;
 }
 
 /* CTA section */
@@ -254,7 +255,7 @@ a#cursive.navbar-brand.js-scroll-trigger{
 
 /* Footer Section */
 #footer {
-  padding: 7% 15%;
+  padding: 1% 15%;
   text-align: center;
 }
 
