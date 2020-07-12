@@ -27,6 +27,14 @@ p {
   line-height:1.5;
 
 }
+
+.header {
+  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position:center center;
+  background-size: cover;
+}
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -64,9 +72,10 @@ p {
 
 /* Title Image */
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
+  width: 100%;
+
+  /* transform: rotate(25deg); */
+  /* position: absolute; */
 }
 
 /* Features section */
