@@ -29,12 +29,19 @@ p {
 }
 
 .header {
-  background-image: url(https://picsum.photos/seed/picsum/200/300);
+  background-image: url(https://picsum.photos/seed/picsum/1900/1250);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position:center center;
   background-size: cover;
+  padding-top: 20.5rem;
+  padding-bottom: 10rem;
 }
+
+.cta-btn {
+  margin: auto;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
