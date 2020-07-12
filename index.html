@@ -20,7 +20,10 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
@@ -33,13 +36,13 @@
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <a class="navbar-brand js-scroll-trigger" href="#title" id="cursive">Transform Rehabilitation</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" name="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Home</a>
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger" href="#title" >Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -48,10 +51,13 @@
               <a class="nav-link js-scroll-trigger" href="#treatments">Treatments</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#pricing">Rates</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#footer">Contact Me</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
             </li>
           </ul>
 
@@ -59,7 +65,8 @@
       </nav>
       <!-- Title -->
       <div class="row header">
-        <button class="btn btn-dark btn-lg cta-btn" type="button">Book a Consultation Now</button>
+        <a href="#contact" class="cta-btn"><button class="btn btn-dark btn-lg " type="button">Book a Consultation Now</button></a>
+
       </div>
 
     </div>
@@ -173,75 +180,6 @@
                 </div>
                 </div>
             </div>
-    <!-- <div class="row">
-      <div class="col-lg-6 col-md-6 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h5>Private Insurance</h5>
-          </div>
-          <div class="card-body">
-            <h4>Initial Consultation (1 - 1.5 hrs)</h4>
-            <h2 class="price-text">$95</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h5>Standard Treatments<br/> (1 hr session)</h5>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$75</h2>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h5>
-              ICBC <br/>
-              Initial Assessment <br/>(1 - 1.5 hr session)
-            </br/>
-          </h5>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$135</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h5>
-              ICBC <br/>
-              Subsequent Treatments <br/>(1 hr session)
-            </br/>
-          </h5>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$78</h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 pricing-column">
-        <div class="card">
-          <div class="card-header">
-            <h5>
-              ICBC <br/>
-              Reassessment <br/>(1 hr session)
-            </br/>
-          </h5>
-          </div>
-          <div class="card-body">
-            <h2 class="price-text">$35</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Testimonials -->
 
   <section id="testimonials" class="white-section">
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
@@ -273,7 +211,7 @@
 
   <!-- Call to Action -->
 
-  <section>
+  <section id="contact">
     <div class="container-fluid">
         <h2 class="section-heading">Contact</h2>
         <div class="form-group row text-left">
@@ -289,7 +227,7 @@
             </div>
         </div>
         <div class="form-group" >
-            <form action="mailto:rehab.transform@outlook.com?subject=Rehab Consultation enquiry"" method="post" enctype="text/plain">
+            <form action="mailto:rehab.transform@outlook.com?subject=Rehab Consultation enquiry" method="post" enctype="text/plain">
                 <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Name" required name="Name"></div>
                 <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Email" required name="Email"></div>
                 <div class="form-group"><textarea type="text" class="form-control" name="message" rows="7" placeholder="Message" id="message-form1-4"></textarea></div>
@@ -298,7 +236,7 @@
         </div>
     </div>
   </section>
-  
+
 
 
   <!-- Footer -->
@@ -317,14 +255,9 @@
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="bower_components/jquery/dist/jquery.js?cacheId=${view.build_cache_id('bower_components/jquery/dist/jqueryjs')}"></script>
-  <script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js?cacheId=${view.build_cache_id('bower_components/bootstrap/dist/js/bootstrap.bundle.min.js')}"></script>
-
-   <!-- Plugin JavaScript -->
-    <script src="bower_components/jquery-easing/jquery.easing.js?cacheId=${view.build_cache_id('bower_components/jquery-easing/jquery.easing.js')}"></script>
-    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js?cacheId=${view.build_cache_id('bower_components/magnific-popup/dist/jquery.magnific-popup.js')}"></script>
 
   <!-- Custom scripts for this template -->
+
   <script src="js/creative.js?cacheId=${view.build_cache_id('js/creative.js')}"></script>
 
   <div metal:define-slot="additional_js"></div>
