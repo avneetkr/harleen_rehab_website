@@ -155,11 +155,12 @@ p {
 #pricing {
   padding: 100px;
   text-align: center;
+  
 
 }
 
-.pricing-col {
-  padding: 3% 2%;
+.pricing-column {
+  padding-bottom: 2rem;
 }
 
 /* CTA section */
