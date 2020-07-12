@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!--Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
@@ -23,30 +25,31 @@
 </head>
 
 <body>
-  <section id="title" class="green-section">
+  <section id="title" class="dark-colored-section">
     <div class="conatiner-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Transform Rehabilitation</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" name="button">
-          <span class="navbar-toogler-icon"></span>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <a class="navbar-brand js-scroll-trigger" href="#title" id="cursive">Transform Rehabilitation</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link js-scroll-trigger" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#treatments">Treatments</a>
+              <a class="nav-link js-scroll-trigger" href="#treatments">Treatments</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Testimonials</a>
+              <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact Me</a>
+              <a class="nav-link js-scroll-trigger" href="#footer">Contact Me</a>
             </li>
           </ul>
 
@@ -235,6 +238,21 @@
     </div>
 
   </footer>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="bower_components/jquery/dist/jquery.js?cacheId=${view.build_cache_id('bower_components/jquery/dist/jqueryjs')}"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js?cacheId=${view.build_cache_id('bower_components/bootstrap/dist/js/bootstrap.bundle.min.js')}"></script>
+
+   <!-- Plugin JavaScript -->
+    <script src="bower_components/jquery-easing/jquery.easing.js?cacheId=${view.build_cache_id('bower_components/jquery-easing/jquery.easing.js')}"></script>
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js?cacheId=${view.build_cache_id('bower_components/magnific-popup/dist/jquery.magnific-popup.js')}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.js?cacheId=${view.build_cache_id('js/creative.js')}"></script>
+
+  <div metal:define-slot="additional_js"></div>
 
 </body>
 

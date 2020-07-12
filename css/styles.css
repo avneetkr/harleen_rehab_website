@@ -69,14 +69,83 @@ background-color: #F3DADA;
 #title {
   background-color: #ff4c68;
   color: #fff;
-  margin-left:15px;
 }
 
-
 /* Navigation Bar */
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+  padding-left:4rem;
+  padding-right:4rem;
+}
+
+#cursive {
+font-family: 'Dancing Script', cursive;
+font-size: 40px;
+
+}
+
+a#cursive.navbar-brand.js-scroll-trigger{
+    font-family: 'Dancing Script', cursive;
+    /*font-size:30px;*/
+
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #f4623a;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #f4623a !important;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* @media screen and (min-width: 601px) {
+  a#cursive.navbar-brand.js-scroll-trigger {
+    font-size: 40px;
+  }
+} */
+@media (min-width: 992px) {
+  #mainNav {
+    box-shadow: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+  #mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  #mainNav.navbar-scrolled .navbar-brand {
+    color: #212529;
+  }
+  #mainNav.navbar-scrolled .navbar-brand:hover {
+    color: #f4623a;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #212529;
+  }
+  #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #f4623a;
+  }
+}
 
 .navbar {
   padding:0 0 4.5rem;
+  align-items: center;
 }
 
 .navbar-brand {
@@ -86,7 +155,7 @@ background-color: #F3DADA;
 }
 
 .nav-item{
-  padding:0 18px;
+  padding:0 12px;
 }
 
 .nav-link {
