@@ -28,6 +28,30 @@ p {
 
 }
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Sections */
+.green-section {
+background-color: #DBE9B7;
+}
+
+.yellow-section {
+background-color: #FCFCF6;
+}
+
+.pink-section {
+background-color: #F3DADA;
+}
+
+/* First Section */
 .header {
   background-image: url(https://picsum.photos/seed/picsum/1900/1250);
   background-repeat: no-repeat;
@@ -45,10 +69,9 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  margin-left:15px;
 }
-.container-fluid {
-  padding: 3% 15%;
-}
+
 
 /* Navigation Bar */
 
@@ -77,20 +100,11 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
-.title-image {
-  width: 100%;
-
-  /* transform: rotate(25deg); */
-  /* position: absolute; */
-}
-
 /* Features section */
 #treatments {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
-  z-index: 1;
+  padding: 100px;
+  text-align: center;
 }
 
 /* .feature-box {
@@ -112,14 +126,6 @@ p {
 }
 
 .treatment-icon:hover {
-  color: #ff4c68;
-}
-.icon{
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
   color: #ff4c68;
 }
 
@@ -155,11 +161,12 @@ p {
 #pricing {
   padding: 100px;
   text-align: center;
+  
 
 }
 
-.pricing-col {
-  padding: 3% 2%;
+.pricing-column {
+  padding-bottom: 2rem;
 }
 
 /* CTA section */
