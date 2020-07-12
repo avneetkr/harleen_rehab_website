@@ -380,3 +380,22 @@ about-details {
     transform: rotate(0);
   }
 }
+
+#announcement {
+  width: 100%;
+  color: black;
+  text-align: center;
+  border-radius: 2px; /* Rounded borders */
+  padding: 3%;
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1;
+  bottom: 5px;
+}
+.alert {
+    padding: 5%;
+}
+.alert-warning {
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+}
