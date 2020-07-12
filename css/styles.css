@@ -4,7 +4,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 
 }
 h2 {
@@ -79,18 +79,34 @@ p {
 }
 
 /* Features section */
-#features {
+#treatments {
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
   z-index: 1;
 }
 
-.feature-box {
+/* .feature-box {
   text-align: center;
   padding: 5%;
+} */
+
+.treatment-title {
+  font-size: 1.5rem;
 }
 
+.treatment-item {
+  padding: 4.5%;
+}
+
+.treatment-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.treatment-icon:hover {
+  color: #ff4c68;
+}
 .icon{
   color: #ef8172;
   margin-bottom: 1rem;
