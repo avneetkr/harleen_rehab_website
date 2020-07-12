@@ -10,6 +10,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/8eb4e7d66c.js" crossorigin="anonymous"></script>
@@ -211,14 +213,34 @@
 
   <!-- Call to Action -->
 
-  <section id="cta" class="light-colored-section">
+  <section>
     <div class="container-fluid">
-      <h3 class="big-heading">Contact Me</h3>
-
-      <button class="btn btn-dark btn-lg cta-btn" type="button">Book a Consultation Now</button>
+        <h1>Contact</h1>   
+        <div class="">
+            <div class="form-group row">
+                <div class="col-sm-7">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Surrey, BC<br>
+                    <i class="fa fa-phone" style="width:30px"></i> 778-908-7515<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> rehab.transform@outlook.com<br><br>
+                </div>
+                <div class="col-sm-5">
+                    <i class="fa fa-hourglass-half" style="width:30px"></i> HOURS:<br>
+                    <i class="fa" style="width:30px"></i> Monday to Friday<br>
+                    <i class="fa" style="width:30px"></i> 9:00 am - 5:00 pm<br>
+                </div>
+            </div>
+            <div class="form-group" >
+                <form action="mailto:rehab.transform@outlook.com?subject=Rehab Consultation enquiry"" method="post" enctype="text/plain">
+                    <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Name" required name="Name"></div>
+                    <div class="form-group"><input class="form-control form-control-lg" type="text" placeholder="Email" required name="Email"></div>
+                    <div class="form-group"><textarea type="text" class="form-control" name="message" rows="7" placeholder="Message" id="message-form1-4"></textarea></div>
+                    <div class="form-group"><button class="btn btn-dark btn-lg cta-btn" type="submit">Book a Consultation Now</button></div>
+                </form>
+            </div>
+        </div>
     </div>
-
   </section>
+  
 
 
   <!-- Footer -->
