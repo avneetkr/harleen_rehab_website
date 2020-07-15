@@ -39,6 +39,23 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $("#announcement-close-button").click(function(){
+    $("#collapse2").removeClass("show");
+    $("#announcement").removeClass("full-width");
+    $("#collapse1").hide();
+    $("#announcement").removeClass("alert");
+    $("#announcement").removeClass("alert-warning");
+    $("#announcement-collapsed").show(500);
+  });
+
+  $("#announcement-collapsed").click(function(){
+    $("#announcement-collapsed").hide();
+    $("#announcement").addClass("alert");
+    $("#announcement").addClass("alert-warning");    
+    $("#announcement").addClass("full-width");
+    $("#collapse1").show(250);
+  });
+  
   // Magnific popup calls
   $('#portfolio').magnificPopup({
     delegate: 'a',

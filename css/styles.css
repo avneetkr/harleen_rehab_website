@@ -382,13 +382,25 @@ about-details {
 }
 
 #announcement {
-  width: 100%;
   color: black;
   text-align: center;
   border-radius: 2px; /* Rounded borders */
   position: fixed; /* Sit on top of the screen */
   z-index: 1;
   bottom: 5px;
+  transition: 0.5s;
+}
+
+.full-width {
+  width: 100%;
+}
+
+#announcement-collapsed {
+  cursor: pointer;
+  padding: 0.50rem;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  display: none;
 }
 
 .alert-warning {
