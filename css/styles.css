@@ -101,7 +101,7 @@ a#cursive.navbar-brand.js-scroll-trigger{
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (max-width: 601px) {
   a#cursive.navbar-brand.js-scroll-trigger {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
 
