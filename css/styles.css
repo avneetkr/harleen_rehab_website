@@ -104,7 +104,19 @@ a#cursive.navbar-brand.js-scroll-trigger{
     font-size: 25px;
   }
 }
-@media (min-width: 992px) {
+
+/* @media screen and (max-width: 1200px){
+  .navbar {
+    padding:0 0 1rem;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    font-size: 0.5rem;
+    font-weight: bold;
+  }
+} */
+@media (min-width: 1200px) {
   #mainNav {
     box-shadow: none;
     background-color: transparent;
@@ -144,18 +156,18 @@ a#cursive.navbar-brand.js-scroll-trigger{
 }
 
 .navbar {
-  padding:0 0 4.5rem;
+  padding:0 0 2rem;
   align-items: center;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-item{
-  padding:0 12px;
+  padding:0 5px;
 }
 
 .nav-link {
