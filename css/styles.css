@@ -35,7 +35,7 @@ p {
 
 /* Containers */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 5%;
 }
 
 /* Sections */
@@ -182,6 +182,13 @@ a#cursive.navbar-brand.js-scroll-trigger{
 }
 
 /*Details cards*/
+
+#about {
+  position: relative;
+  padding: 100px;
+  text-align: center;
+}
+
 about-details {
     background: #eee !important;
 }
@@ -191,12 +198,14 @@ about-details {
 
 }
 
-
 #about-details .card {
     border: none;
     background: #ffffff;
 }
 
+.about-img {
+  padding-bottom: 2rem;
+}
 .image-flip:hover .backside,
 .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
